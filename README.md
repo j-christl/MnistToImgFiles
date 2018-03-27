@@ -30,3 +30,6 @@ This will create 5 png files in ./mnist_images/ containing the first 5 handwritt
         ├── mnist_test_3-0.png
         └── mnist_test_4-4.png
 ```
+## Images
+The resulting images are created using matplotlib and look like the following: (mnist_test_0-7.png)
+![alt text](https://raw.githubusercontent.com/yoshc/MnistToImgFiles/master/mnist_images/test/mnist_test_0-7.png)
