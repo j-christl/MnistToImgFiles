@@ -19,6 +19,7 @@ python3 main.py ./mnist_images/ test 0 5
 This will create 5 png files in ./mnist_images/ containing the first 5 handwritten numbers of the MNIST dataset
 
 ## Result
+```
 .
 ├── main.py
 └── mnist_images
@@ -27,4 +28,5 @@ This will create 5 png files in ./mnist_images/ containing the first 5 handwritt
         ├── mnist_test_1-2.png
         ├── mnist_test_2-1.png
         ├── mnist_test_3-0.png
-        └── mnist_test_4-4.png
+        └── mnist_test_4-4.png
+```
