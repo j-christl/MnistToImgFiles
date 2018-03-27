@@ -29,13 +29,13 @@ def main():
     if len(argv) >= 4:
         INDEX_FROM = int(argv[3])
     if len(argv) >= 3:
-        MODE = argv[2]
+        MODE = argv[2].upper()
     if len(argv) >= 2:
         if argv[1] == "--help":
             print_help()
             return
         else:
-            DIRECTORY = argv[1].upper()
+            DIRECTORY = argv[1]
     write_images()
     pass
 
