@@ -1,5 +1,5 @@
 # MnistToImgFiles
-Small python 3 tool to load the MNIST dataset from keras and save each entry to a .png file.
+Small python 3 tool to load the MNIST dataset from keras and save each entry to a .png file using matplotlib.
 This might be helpful if you are building a neural network for handwriting detection using the MNIST dataset and want to look at the numbers represented by the data quickly.
 
 ## Usage
@@ -14,6 +14,17 @@ python3 main.py [destination dir] [mode] [start index] [end index]
 
 ## Example usage
 ```python
-python3 main.py ./mnist/images/ test 0 100
+python3 main.py ./mnist_images/ test 0 5
 ```
-This will create 100 png files in ./mnist/images/ containing the first 100 handwritten numbers of the MNIST dataset
+This will create 5 png files in ./mnist_images/ containing the first 5 handwritten numbers of the MNIST dataset
+
+## Result
+.
+├── main.py
+└── mnist_images
+    └── test
+        ├── mnist_test_0-7.png
+        ├── mnist_test_1-2.png
+        ├── mnist_test_2-1.png
+        ├── mnist_test_3-0.png
+        └── mnist_test_4-4.png
