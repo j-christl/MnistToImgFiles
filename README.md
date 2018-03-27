@@ -14,6 +14,6 @@ python3 main.py [destination dir] [mode] [start index] [end index]
 
 ## Example usage
 ```python
-python3 main.py ./mnist-images/ test 0 100
+python3 main.py ./mnist/images/ test 0 100
 ```
-This will create 100 png files in ./mnist-images/ containing the first 100 handwritten numbers of the MNIST dataset
+This will create 100 png files in ./mnist/images/ containing the first 100 handwritten numbers of the MNIST dataset
